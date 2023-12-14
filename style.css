@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    color: black;
+    @media (min-width:768px) {
+        background-color: skyblue;
+    }
+}
+
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* form style */
+form {
+    box-shadow: 2px 2px 5px black;
+    padding: 30px 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 100%;
+    @media (min-width:768px) {
+        min-height: 250px;
+    }
+}
+h3{
+    text-align: center;
+}
+.input_container{
+    padding: 10px 8px;
+}
+input[type="checkbox"]{
+    padding: 15px 3px;
+    cursor: pointer;
+} 
+label{
+    padding-left: 5px;
+}
+span{
+    font-size: 12px;
+    color: red;
+}
